@@ -1,0 +1,117 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  font-size: 4em;
+  margin-left: 10%;
+  margin-top: 12%;
+  font-weight: bolder;
+  font-style: oblique;
+}
+
+h2{
+  font-size: 2em;
+  margin-left: 10%;
+  font-style: oblique;
+}
+
+.container{
+  display: flex;
+  background-color: pink;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+body{
+  background-color: black;
+  color: white;
+}
+
+.page{
+  width: 80%;
+  background-image: url("9.jpg");
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  /* text-align: center; */
+}
+
+.sidebar{
+  background-color: black;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  /* position: fixed; */
+}
+
+ul.sidebar-menu{
+  list-style-type: none;
+  margin-top: auto;
+  padding-top: auto;
+  font-size: 1.5em;
+}
+li{
+  margin-bottom: 10%;
+}
+
+#dp{
+  margin-top: 5em;
+  margin-bottom: .5em;
+  width: 9em;
+  height: 9em;
+  border-radius: 50%;
+  border-color: white;
+  border: 5px solid;
+}
+
+a:link,a:visited{
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+  display: block;
+  background-color: grey;
+  width: 7em;
+  border-radius: 100px;
+  margin: auto;
+  padding: 2px 2px;
+}
+
+#about{
+  margin-top: 1em;
+  background-color: white;
+  height: auto;
+  width: 100%;
+  color: black;
+}
+
+#dp_name{
+  font-size: 1.7em;
+  margin-bottom: 2em;
+}
+
+.matter{
+  font-size: 1.3em;
+  margin-left: 2%;
+  text-align: ju
+}
+
+h3{
+  font-size: 2.2em;
+  margin-left: 2%;
+  color: #173b6c;
+  font-weight: bold;
+  margin-top: 0.3em;
+  margin-bottom: .1em;
+}
+
+.under-line{
+  width:4%;
+  height: 2px;
+  margin-left: 2%;
+  margin-bottom: 1em;
+  /* border: 5px solid; */
+  background-color: blue;
+}
