@@ -1,0 +1,23 @@
+.a{
+  height: 500px;
+  position: relative;
+}
+
+.b, .c{
+  height: 200px;
+}
+.c{
+  background-color: pink;
+}
+.mid-box{
+  background-color: white;
+  z-index: 1;
+  position: absolute;
+  top:38%;
+  left:50%
+  width:100px;
+}
+h1{
+  -webkit-text-stroke: 2px #a8a9b4;
+  /* -webkit-text-fill-color: #040b14; */
+}
