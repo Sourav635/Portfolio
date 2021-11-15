@@ -222,22 +222,42 @@ h3{
 }
 
 .left-skill-set, .right-skill-set{
-  /* margin-left: 20px; */
-  width:50%;
+  margin-left: 20px;
+  width:45%;
 }
 
-.main-box{
+.progress{
+  background-color: #c3daf7;
+  height: 12px;
+  margin-bottom: 20px;
+  border-radius: 0px;
+}
+
+.progress-bar{
+  background-color: #149ddd;
+  border-radius: 100px;
+}
+
+.lm20{
+  margin-left: 20px;
+}
+
+/* .main-box{
   margin-left: 20px;
   width:90%;
   background-color: #c3daf7;
   margin-bottom: 30px;
   /* margin-top: 4px; */
-}
+} */
 
-.sub-box{
+/* .sub-box{
   font-size: 7px;
   width: 340px;
   background-color: #149ddd;
+} */
+
+.progress {
+  background-color:pink;
 }
 
 .left-head{
@@ -248,7 +268,7 @@ h3{
 
 .headlines{
   display: flex;
-  width: 93%;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
@@ -302,6 +322,7 @@ h3{
 
 h4{
   font-size: 25px;
+  margin-bottom: 20px;
 }
 
 .edu{
